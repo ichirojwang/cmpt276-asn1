@@ -176,7 +176,7 @@ function calcMean() {
     else {
         console.log(0)
         document.querySelector('.result').textContent = '';
-        alert("The result could not be calculated.")
+        alert("The mean of grades could not be calculated.")
     }
 }
 
@@ -266,7 +266,7 @@ function calcWeighted() {
     else {
         console.log(0)
         document.querySelector('.result').textContent = '';
-        alert("The result could not be calculated.")
+        alert("The weighted grade could not be calculated.")
     }
 
 }
