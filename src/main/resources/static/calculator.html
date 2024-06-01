@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="/css/Calculator.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="rect-red">
+
+        <div class="rect-darkgrey"></div>
+
+        <div class="grade-calculator">
+            <h1>Grade Calculator</h1>
+
+            <div class="rect-act">
+                <section class="activities">
+                    <h2>Activities</h2>
+                    <h3>Give grades to the numeric activities:</h3>
+
+                    <form action="/submit">
+                        <div class="container-table">
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Short Name</th>
+                                <th>Weight</th>
+                                <th>Grade</th>
+                                <th>Percent</th>
+                            </tr>
+                            <tr>
+                                <td>Activity 1</td>
+                                <td>A1</td>
+                                <td><input name="weight" id="weight" type="text"></td>
+                                <td><input name="grade-num" id="grade-num" type="text"> / <input name="grade-denom" id="grade-denom" type="text"></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        </div>
+
+                        <div class="rect-add-row">
+                            <input type="submit" value="ADD ROW" name="row-add" id="row-add">
+                        </div>
+
+                        <div class="rect-result">
+                            <h2>Result</h2>
+                            <h4 class="result"> </h4>
+                        </div>
+                        
+                        <div class="rect-calc">
+                            <input type="submit" value="WEIGHTED" name="calc-weighted" id="calc-weighted">
+                            <input type="submit" value="MEAN" name="calc-mean" id="calc-mean">
+                        </div>
+                    </form>
+
+                </section>
+            </div>
+
+        </div>
+
+        <div class="rect-darkgrey"></div>
+
+    </div>
+
+</body>
+</html>

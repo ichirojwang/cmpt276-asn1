@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(228, 228, 228);
+    padding: 0;
+    margin: 0;
+    padding: 1%;
+}
+
+.rect-red {
+    background-color: #A6192E;
+    width: 97vw;
+    height: 97vh;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.rect-darkgrey {
+    background-color: rgb(49, 49, 49);
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    border: 1px solid rgb(49, 49, 49);
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.1),
+    2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.grade-calculator {
+    background-color: white;
+    width: 90%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1),
+    2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.rect-act {
+    padding: 0% 30% 2% 2%;
+    margin-top: 0;
+}
+
+.activities {
+    background-color: rgb(236, 238, 243);
+    border-radius: 5px;
+    border: 1px solid rgb(206, 208, 214);
+    padding-top: 2%;
+}
+
+h1 {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h2, h3, h4 {
+    padding: 10px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #A6192E;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+table, th, td {
+    border: 1px solid rgb(185, 185, 185);
+    font-size: 14px;
+    margin-top: 0;
+}
+
+th {
+    font-weight: bolder;
+    background-color: rgb(207, 207, 207);
+    height: 10px;
+    padding: 3px 8px 3px 8px;
+}
+
+td {
+    padding: 8px;
+    font-weight: normal;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+th, td {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.container-table {
+    padding: 10px;
+}
+
+.container-table input {
+    width: 40px;
+    height: 20px;
+}
+
+.rect-add-row {
+    padding: 10px;
+
+}
+
+.rect-result {
+    width: 400px;
+    height: 100px;
+}
+
+.rect-calc {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 30px 20px;
+}
+
+.rect-calc input {
+    margin: 7px;
+    background-color: #A6192E;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    /* margin: 10; */
+    padding: 10px;
+    width: 100px;
+}
